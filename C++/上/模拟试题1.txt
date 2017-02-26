@@ -1,0 +1,175 @@
+1．下列字符列中，合法的浮点型常量是：
+   (A) 457   (B) 6e5.3   (C) e7   (D) 123e6
+
+2．字符串常量 ”w\x42\\\nx\103y” 的长度是：
+   (A) 7    (B) 11    (C) 15    (D) 16
+
+3．以下运算符中，自右向左结合的运算符是：
+   (A) []    (B) <=    (C) *=    (D) <<
+
+4．表达式4/8*100/2.0的值是：
+   (A) 25    (B) 25.0    (C) 0    (D) 0.0
+
+5．设变量int a = 5; 下列哪个表达式计算后，使得变量b的值不为2 ？
+    (A) b=a/2    (B) b=6-(--a)    (C) b=a%2    (D) b=a<3?3:2
+
+6．设a是整型变量，不能表达数学关系式11<a<15的C++表达式是：
+   (A) a>11&&a<15            (B) a==12||a==13||a==14
+   (C) !(a<=11)&&!(a>=15)    (D) 11<a<=14
+
+7．下列C++代码中，不能正确对字符串s1置值的代码是：
+   (A) char *s1; cin>>s1;      (B) char *s1,*s2=”name”; s1=s2; 
+   (C) char s1[5]=”name”;    (D) char s1[5]={”name”};
+
+8．一个具有6个整型指针元素的一维数组的正确定义是：
+   (A) int **p[6]    (B) int *(p)[6]
+   (C) int *p[6]     (D) *(*(p)[6])
+
+9．执行语句 x=1; while(x++<7)cout<<'*'; 后输出结果是：
+   (A) **    (B) ****    (C) ******    (D) *******
+
+10．若用一维数组名作为调用函数时的实参，则传递给形参的是：
+   (A) 数组首元素的地址    (B) 数组首元素的值
+   (C) 数组元素的个数      (D) 数组中全部元素的值
+
+二．简答题（每小题2分，共20分）
+1．设整型变量x为任何一个整数，表达式 –2<x<2 的值是? 1
+
+2．调用函数时，希望从提供的实参变量中得到函数的结果，则对应的形参应该是？
+
+3．设有变量定义 char *s[]={“Beijing”,”Shanghai”,”Guangzhou”}; 执行语句cout<<*(s+1)+1; 输出是？
+
+4．表述“变量x的值等于3”和“变量y的值等于5”其中有且只有一种情况成立的表达式是？
+
+5．设有变量定义int a[4][3],*p=a[2]; 表达式 p+2 指向的元素是？ 6．将字符串str2拷贝到字符数组str1[]中，应调用函数？
+
+7．说明语句 char *w(); 的含义是？ 
+
+8．表达式 new int[10] 的含义是？
+
+9．设有函数调用语句 Count(a ,num,max,min,average); 功能是由参max, min, average返回整型数组a前num个元素中的最大值，最小值和平均值。对应的函数原型是？
+
+10．有说明 struct link{ int code; link *next; }; link *head,*p;已知head为单链表的头结点，在*head之后插入*p结点操作的语句是？
+
+三．分析程序，写输出结果（每小题5分，共20分）
+1．#include<iostream.h>
+void main()
+{  int a[10]={2,4,0,-5,10,6,-8,9,6,7};
+   int i,s=0,count=0;
+   for(i=0;i<10;i++)
+   if(a[i]>0) s+=a[i],count++;
+   else continue;
+   cout<<"s="<<s<<" count="<<count<<endl;
+}
+
+2．#include<iostream.h>
+void fun();
+void main()
+{  int i;
+   for(i=1;i<5;i++)
+   fun();
+   cout<<endl;
+}
+void fun()
+{  static int a;
+   int b=2;
+   cout<<(a+=3,a+b)<<'\t';
+}
+
+3．#include<iostream.h>
+int lcm(int m, int n)
+{  int r,a,b;
+   a=m; b=n; r=m;
+   do{ m=n; n=r; r=m%n; }
+   while(r);
+   return a*b/n;
+  }
+void main()
+{ cout<<lcm(3,7)<<'\t'<<lcm(4,6)<<endl; }
+
+4．#include <iostream.h>
+void printN(int n)
+{  if(n)
+   {  printN(n-1);
+      cout << n << ends ;
+   }
+}
+void print(int w)
+{  if( w )
+   {  print( w-1 );
+      printN(w);
+      cout << endl;
+   }
+}
+void main()
+{ print( 5 ); }
+
+四．根据程序功能填空。（每空2分，共20分）
+1．本程序按以下公式计算e的值，精度为1e-6。
+ 
+#include<iostream.h>
+void main()
+{  double e,t,n;
+   e=0;
+   t=n=_____(1)_____;
+   while(_____(2)_____)
+   {  e+=t;
+      _____(3)_____;
+      n=n+1.0;
+   }
+   cout<<"e="<<e<<endl;
+}
+
+2．本程序由主函数输入一字符串，调用函数，把该字符串中的数字0～9转换成小写字母a～j；所有小写字母转换成大写字符。然后在主函数输出转换后的字符串。
+#include<iostream.h>
+#include<ctype.h>
+_____(4)_____
+void main()
+{  char str1[20], str2[20];
+   cin>>str1;
+   change(str1,str2);
+   cout<<str2<<endl;
+}
+void change(char *s1, char *s2)
+{  while(_____(5)_____)
+   {  if(*s1>='0'&&*s1<='9')
+      *s2=_____(6)_____;
+      else *s2=toupper(*s1);
+      _____(7)_____
+   }
+   *s2='\0';
+}
+
+3．函数create从键盘输入整数序列，以输入0为结束。按输入逆序建立一个以head为表头的单向链表。例如，输入序列为1 2 3 4 5 0，建立的链表是5 4 3 2 1。
+struct node{int data; node * next;};
+void create(node * &head)
+{  node *p;
+   _____(8)_____;
+   cin>>p->data;
+   while(p->data!=0)
+  {  if(head==NULL){  head=p; head->next=NULL; } 
+     else
+     {  _____(9)_____
+        _____(10)_____
+     }
+     p=new node;
+     cin>>p->data;
+  }
+}
+
+五．程序设计（第1小题6分，第2、3小题各7分，共20分）
+1．编写函数输出以下形状的图形，其中构成图形的符号和输出的行数通过参数传送。
+        #
+      #   #
+    #       #
+  #           #
+# # # # # # # # #
+
+2．编写一个程序，实现如下功能：
+   （1）输入k（<100）个整数到数组x[100]中；
+   （2）计算k个数的平均值及大于平均值的元素个数。
+
+3．编写一个程序，实现如下功能：
+   （1）从键盘输入a op b。其中a, b为数值；op为字符，限制为+、-、*、/ 。
+   （2）调用函数count(op,a,b)，计算表达式a op b的值。由主函数输出结果。
+
