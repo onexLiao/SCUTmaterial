@@ -1,0 +1,111 @@
+Chapter 1. What is Software Architecture? 
+理解：软件体系结构（软件架构）的定义、架构模式的概念。
+掌握：软件系统有哪几类结构？在每类结构里，元素及其之间的关系是什么？每类结构各有哪些常见的结构？其特点是什么？
+了解：结构与视图是什么关系？好的结构的一些经验法则。
+
+Chapter 2. Why is Software Architecture Important?
+理解：13个理由。
+
+Chapter 3. The Many Contexts of Software Architecture
+理解：技术环境、项目生命周期、商业环境、架构师职业环境中的软件体系结构。架构与环境的相互影响。
+了解：涉众。
+
+Chapter 4. Understanding Quality Attributes
+了解：系统的功能需求。功能需求与系统架构的关系。功能需求与质量需求的关系。系统约束。
+理解：系统的质量需求。战术的概念。
+掌握：质量属性场景的概念和举例。质量设计的7种决策。
+
+Chapter 5. Availability
+理解：可用性概念。
+了解：可用性公式。可用性一般场景。
+掌握：可用性战术。可用性设计清单。
+
+Chapter 6. Interoperability
+理解：互操作性概念。
+了解：互操作性一般场景。
+掌握：互操作性战术。互操作性设计清单。
+
+Chapter 7. Modifiability
+理解：可修改性概念。
+了解：可修改性一般场景。
+掌握：可修改性战术。可修改性设计清单。
+
+Chapter 8. Performance
+理解：性能概念。
+了解：性能公式。性能一般场景。
+掌握：性能战术。性能设计清单。
+
+Chapter 9. Security
+理解：安全性概念。
+了解：安全一般场景。
+掌握：安全性战术。安全性设计清单。
+
+Chapter 10. Testability
+理解：可测试性概念。
+了解：可测试性一般场景。
+掌握：可测试性战术。可测试性设计清单。
+
+Chapter 11. Usability
+理解：易用性概念。
+了解：易用性一般场景。
+掌握：易用性战术。易用性设计清单。
+ 
+Chapter 12. Other Quality Attributes
+了解：其它软件质量属性如可变性、可移植性、开发可分布性、伸缩性、可部署性、移动性、可监控性、生命财产安全性。其它类别的质量属性如架构质量属性、商业属性、系统质量属性。ISO/IEC FCD 25010 产品质量标准。
+理解：如何处理未知的质量属性。
+
+Chapter 13. Patterns and Tactics
+了解：架构模式（架构风格）的概念。
+掌握：层次模式、代理模式、MVC模式、管道-过滤器模式、CS模式、P2P模式、SOA模式、发布订阅模式、共享数据模式、Map-Reduce模式、多级模式。
+理解：模式与战术的关系。
+
+Chapter 14. Quality Attribute Modeling and Analysis
+了解：模型。常见质量属性模型的成熟度。
+了解：思想实验。粗略分析。原型。模拟仿真。实验。
+
+Chapter 15. Architectures in Agile Projects
+了解：敏捷开发思想与准则。
+理解：敏捷开发的甜蜜点。
+了解：敏捷开发与架构编档。敏捷开发与架构演化。
+
+Chapter 16. Architecture and Requirements
+理解：ASR。ASR的几种获取方法。QAW。
+了解：商业目标场景。
+理解：PALM方法。
+掌握：效用树。
+
+Chapter 17. Designing an Architecture
+理解：Generate and Test（架构设计的假设检验法）。初始化、迭代、终结。
+掌握：ADD方法。
+
+
+Chapter 18. Documenting Software Architectures
+理解：架构编档的重要性。架构文档的用途、读者。
+了解：如何选择视图进行编档。
+掌握：如何对视图进行编档。视图文档模版。架构文档摘要信息。如何对系统行为进行编档。如何对质量属性进行编档。
+
+Chapter 19. Architecture, Implementation, and Testing
+理解：实现与架构的一致性。
+掌握：将架构嵌入代码。框架方法。代码模版方法。防止架构侵蚀。
+了解：架构师在测试中的角色。
+
+Chapter 20. Architecture Reconstruction and Conformance
+了解：架构重构的背景和目的。
+理解：架构重构的阶段。每个阶段的方法。
+
+Chapter 21. Architecture Evaluation
+了解：架构评审的3种形式及其特点。轻量级架构评审。
+掌握：ATAM方法：目的、参与人员、步骤、采用的方法、结论。
+
+Chapter 26. Architectures for the Cloud
+了解：云计算的特点、主要机制、技术。
+掌握：云计算下的质量属性。
+
+考题类型
+选择题（30%）
+概念的理解
+简答题（30%）
+架构方法的掌握
+分析设计题（40%）
+针对具体问题，给出质量属性场景、所用战术、架构模式
+

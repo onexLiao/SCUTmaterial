@@ -1,0 +1,229 @@
+Chapter 1. What is Software Architecture? 
+理解：软件体系结构（软件架构）的定义、架构模式的概念。
+掌握：软件系统有哪几类结构？在每类结构里，元素及其之间的关系是什么？每类结构各有哪些常见的结构？其特点是什么？
+了解：结构与视图是什么关系？好的结构的一些经验法则。
+
+Chapter 2. Why is Software Architecture Important?
+理解：13个理由。
+
+Chapter 3. The Many Contexts of Software Architecture
+理解：技术环境、项目生命周期、商业环境、架构师职业环境中的软件体系结构。架构与环境的相互影响。
+了解：涉众。
+
+Chapter 4. Understanding Quality Attributes
+了解：系统的功能需求。功能需求与系统架构的关系。功能需求与质量需求的关系。系统约束。
+理解：系统的质量需求。战术的概念。
+掌握：质量属性场景的概念和举例。质量设计的7种决策。
+
+质量属性场景：a common form to specify all quality attribute requirements.It has six parts:stimulus,stimulus source,response,response measure,environment,artifact
+举例：example general scenario for availability:
+stimulus source:internal,external.
+stimulus:crash,incorrect response
+artifact:processors,communication channels
+environment:normal,degraded operation
+response:record,notify,be unavailable
+response measure:repaire time
+质量设计的7种决策：
+1.allocation of responsibilities
+2.coordination model
+3.data model
+4.management of resources
+5.mapping among architectural elements
+6.binding time decisions
+7.choice of technology
+
+Chapter 5. Availability
+理解：可用性概念。
+了解：可用性公式。可用性一般场景。
+掌握：可用性战术。可用性设计清单。
+
+可用性战术：
+1.Detect faults
+ping/echo,heartbeat,
+
+	
+Chapter 6. Interoperability
+理解：互操作性概念。
+了解：互操作性一般场景。
+掌握：互操作性战术。互操作性设计清单。
+
+Chapter 7. Modifiability
+理解：可修改性概念。
+了解：可修改性一般场景。
+掌握：可修改性战术。可修改性设计清单。
+
+可修改性战术：
+1.reduce size of a module
+2.increase cohesion
+3.reduce coupling(encapusulate,use an intermediary,restrict dependencies,refactor,abstract common service)
+4.defer binding
+
+Chapter 8. Performance
+理解：性能概念。
+了解：性能公式。性能一般场景。
+掌握：性能战术。性能设计清单。
+
+性能战术：
+1.control resource demand(manage sampling rate,limit event response,prioritize events,reduce overhead,bound execution times,increase resource efficiency)
+2.manage resources(increase resources,introduce concurrency,maintain multiple copies of computations,maintain multiple copies of data,bound queue sizes ,schedule resources)
+
+
+Chapter 9. Security
+理解：安全性概念。
+了解：安全一般场景。
+掌握：安全性战术。安全性设计清单。
+
+安全性技术：
+1.detect attacks
+(detect intrusion,detect service denial,verify message intergrity,detect message delay)
+2.resist attacks
+(identify actors,authenticate actors,authorize actors,limit access,limit exposure,separate entities,change default settings)
+3.react to attacks
+(revoke access,lock computer,inform actors)
+4.recover from attacks
+(see availability+audit)
+
+Chapter 10. Testability
+理解：可测试性概念。
+了解：可测试性一般场景。
+掌握：可测试性战术。可测试性设计清单。
+
+可测试性战术：
+1.control and observe system state
+(spcialized interfaces,record/playback,localize state storage,abstract data sources,sandbox,executable assertions)
+2.limit complexity
+(limit structural complexity,limit non-determinism)
+
+Chapter 11. Usability
+理解：易用性概念。
+了解：易用性一般场景。
+掌握：易用性战术。易用性设计清单。
+ 
+易用性战术：
+1.support user initiative
+(cancel,undo,pause/resume,aggregate)
+2.support system initiative
+(maintain task model,maintain system model,maintain user model)
+关键词/句：
+usability comprises the following areas:
+1.learning  a system features
+2.using a system efficiently
+3.minimizing the impact of errors
+4.adapting the system to user needs
+5.increasing confidence and satisfaction
+
+Chapter 12. Other Quality Attributes
+了解：其它软件质量属性如可变性、可移植性、开发可分布性、伸缩性、可部署性、移动性、可监控性、生命财产安全性。其它类别的质量属性如架构质量属性、商业属性、系统质量属性。ISO/IEC FCD 25010 产品质量标准。
+理解：如何处理未知的质量属性。
+
+Chapter 13. Patterns and Tactics
+了解：架构模式（架构风格）的概念。
+掌握：层次模式、代理模式、MVC模式、管道-过滤器模式、CS模式、P2P模式、SOA模式、发布订阅模式、共享数据模式、Map-Reduce模式、多级模式。
+理解：模式与战术的关系。
+
+Chapter 14. Quality Attribute Modeling and Analysis
+了解：模型。常见质量属性模型的成熟度。
+了解：思想实验。粗略分析。原型。模拟仿真。实验。
+
+Chapter 15. Architectures in Agile Projects
+了解：敏捷开发思想与准则。
+理解：敏捷开发的甜蜜点。
+了解：敏捷开发与架构编档。敏捷开发与架构演化。
+
+
+
+Chapter 16. Architecture and Requirements
+理解：ASR。ASR的几种获取方法。QAW。
+了解：商业目标场景。
+理解：PALM方法。
+掌握：效用树。
+
+
+
+Chapter 17. Designing an Architecture
+理解：Generate and Test（架构设计的假设检验法）。初始化、迭代、终结。
+掌握：ADD方法。
+
+
+
+Chapter 18. Documenting Software Architectures
+理解：架构编档的重要性。架构文档的用途、读者。
+了解：如何选择视图进行编档。
+掌握：如何对视图进行编档。视图文档模版。架构文档摘要信息。如何对系统行为进行编档。如何对质量属性进行编档。
+
+
+
+Chapter 19. Architecture, Implementation, and Testing
+理解：实现与架构的一致性。
+掌握：将架构嵌入代码。框架方法。代码模版方法。防止架构侵蚀。
+了解：架构师在测试中的角色。
+
+将架构嵌入代码：
+1.架构是代码实现的蓝图：
+（1.1 实现者必须知道他们正在实现的是哪种架构
+1.2 实现者可以通过在代码中进行注释来对架构进行编档
+1.3 项目必须规定怎么做，这样工具才能自动把架构和代码联系起来）
+
+2.框架方法：
+1.框架是以某一特定主题进行组织的一些可重用的类集合
+2.程序员能使用框架提供的服务
+
+3.代码模板方法：
+代码模板是程序员提供的特点应用接口的代码集合
+好处：
+1.保证属性类似的组件行为风格类似
+2.模板只需要一次debug
+3.复杂的部分由熟练人员完成后交给比较不熟练的人员
+
+4.防止架构腐蚀：
+1.用工具来加强架构约束
+2.当腐蚀出现时把文档视为过期，给剩下部分更多信任
+3.安排好文档和代码的同步时间
+
+专家角色：
+1.test planning
+2.test development
+3.test interpretation
+4.test harness creation
+
+Chapter 20. Architecture Reconstruction and Conformance
+了解：架构重构的背景和目的。
+理解：架构重构的阶段。每个阶段的方法。
+
+架构重构的阶段：
+1.Raw view extraction
+2.database construction
+3.view fusion
+4.anrchitecture analysis
+
+Chapter 21. Architecture Evaluation
+了解：架构评审的3种形式及其特点。轻量级架构评审。
+掌握：ATAM方法：目的、参与人员、步骤、采用的方法、结论。
+
+目的：
+ATAM has been user for over a decade to evaluate software architectures in domians ranging from automotive to financial to defense.
+
+参与人员：
+the evaluation team
+project decision makers
+architecture stakeholders
+
+步骤：
+1.present the ATAM
+2.present business drivers
+3.present architecture
+4.identify architectural approaches
+5.generate QA utility tree
+6.analyze architectural approaches
+7.brainstorm scenarios
+8.analyze architectural approaches
+9.present results
+
+
+
+考题类型
+选择题（30%）
+简答题（30%）
+分析设计题（40%）
+
+
