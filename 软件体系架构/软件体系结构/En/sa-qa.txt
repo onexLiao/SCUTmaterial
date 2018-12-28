@@ -1,0 +1,106 @@
+选择题
+All of the following roles are stakeholder except:
+
+All of the following are important system attributes except: attractivity
+
+Which of the following are elements of a SA: All 
+
+Which of the following is not a precondition for architectural review? finished design
+
+ATAM outputs include:
+
+Which of the following role will not played by the ATAM Evaluation Team?
+
+Context menu can be supported by which model?
+
+简答题
+What is The Architecture Business Cycle (ABC)?
+ABC is cycle of influences, from the environment to the architecture and back to the environment
+
+List 5 architecture patterns/styles.
+
+How is an architectural pattern/style determined.
+a set of component types 
+a set of connector types/interaction mechanisms 
+a topological layout of these components
+a set of constraints on topology and behavior 
+一组元素类型（如数据存储库或计算数学函数的组件）
+指出其相互关系的元素的拓扑布局。
+一组语义限制（如管道——过滤器样式中的过滤器是纯数据转化器——他们以增量形式将其输入流转换为输出流，但并不控制上游流或下游元素）。
+一组交互机制（如子例程调用、事件——调阅者、黑板）、他们确定元素将如何通过允许的拓扑进行协调。
+
+Bass et al's classify all architecture structures into 3 main categories, what are them?
+
+List 5 architecture structures according to Bass et al.
+
+What is a quality attribute scenario?
+a means to characterize system quality attributes, consists of 6 parts:
+stimulus source
+stimulus
+environment
+artifacts affected
+system response
+measurement of response
+A unified way to express quality requirements
+
+How do you consider that functionality and quality attributes are orthogonal?
+
+Discuss the benefits of architectural reviews.
+
+When can architectural reviews begin?
+
+What is brainstorming?
+
+Explain risk points in architectural decision.
+
+Explain non-risk points in architectural decision.
+
+Explain sensitivity points in architectural decision.
+
+Explain trade-off points in architectural decision.
+
+List ATAM steps.
+
+What is a utility tree?
+
+broker vs SOA
+
+论述题
+How do the environment influences designs?
+Stakeholder with different, sometimes conflicting concerns; 
+Business Environment and Organizational Structure (organizational structure, resources, assets, business strategies);
+The Architect's Background and Experience
+
+How do Architecture Design Change the Business Environment?
+They affect the structure of the organization.
+They affect the business goals of the organization.
+They affect customer requirements for new products.
+They affect how future architectures are designed.
+
+What is availability? what tactics can be taken to used for availability?
+
+What is ADD? describe the steps to carry out ADD.
+ATAM一种进行构架评估的综合方法，ATAM是评估软件构架的一个健壮的方法。
+在该方法中，项目决策者和涉众要清晰地阐述一个准确的质量属性需求列表（以场景的方式），
+并说明与实现每个高优先场景相关的构架决策。
+然后，把这些决策确定为有风险决策或无风险决策，以找到构架中任何存在问题的地方。
+
+ATAM活动的4个阶段：
+在第0阶段（合作关系和准备）确定细节：人员名单，时间，地点；评估小组获取资料并进行初步了解分析。
+第1阶段，评估阶段，决策者参与，小组开始信息收集与分析；耗时约1周。1～2周中断期，评估小组进一步以非正式方式了解构架。
+第2阶段，评估阶段，涉众参与，分析继续；约2天。
+第3阶段，后续阶段，生成最终报告，进行评估活动总结；1周。
+评估阶段的步骤：
+第1步：ATAM方法的表述。评估负责人向决策者表述ATAM方法，使大家理解其过程，了解角色布局。
+第2步：商业动机的表述。决策者介绍系统商业动机、重要功能、各种限制（任何相关的技术、管理、经济和政治限制）、商业目标和上下文、主要的涉众、驱动因素等。
+第3步：构架的表述。首席设计师或架构小组介绍构架，技术限制、所用模式等。
+第4步：对构架方法进行分类。评估小组利用所有已知信息对构架方法进行分类。
+第5步：生成质量属性效用树。生成质量属性效用树，捕获详细的需求信息，为每个场景分配一个级别，如（高，中），前者为重要度，后者为实现难易度，重点放在（高，高）的场景；此处场景具备刺激、环境、响应三要素就可以了。
+第6步：分析构架方法。评估小组分析所有重要场景，设计师解释如何支持该场景，检查所用构架方法，分析风险点、权衡点、敏感点。
+经过一段中断期，第2阶段开始，此时涉众开始参与；首先仍然需要一个对ATAM方法的介绍，并使涉众了解已有的成果。
+第7步：集体讨论并确定场景的优先级。集体讨论并分析场景的优先级，以了解更广泛的涉众的想法；该过程可能产生新的场景；使用“有限票数法”投票确定每个场景的优先级——此处不考虑实现难度。
+第8步：分析构架方法。分析新的高优先级的场景，构架师解释构架是怎么满足各场景的。
+第9步：结果表述。总结评估结果，评估负责人展示该结果。
+
+How to create a skeletal system?
+
