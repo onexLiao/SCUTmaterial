@@ -1,0 +1,81 @@
+机器学习知识点
+
+1.基础知识
+概率论
+边缘概率（Marginalization）
+贝叶斯定理
+贝叶斯网络
+概率密度
+最大似然估计
+信息熵
+
+2.线性回归和梯度下降
+损失函数
+拟合模型：y=T(w)x+b
+最小二乘法：得出解析解（闭式解）
+梯度下降法
+
+3.线性分类、支持向量机、随机梯度算法
+线性分类（二分类）
+支持向量机
+软间隔
+合叶损失函数
+梯度下降（Gradient Descent）
+随机梯度下降（Stochastic GD）
+小批量随机梯度下降（Mini-batch SGD）
+多分类问题（One vs Rest, One vs One）
+决策有向无环图
+对偶问题（Dual Problem）
+
+4.逻辑回归和归一化指数函数回归
+对率损失函数
+交叉熵
+最大似然法
+正则化
+对数似然损失函数
+归一化指数函数
+Large-Margin Softmax Loss
+两变量归一化指数损失
+A-Softmax Loss
+
+5.交叉验证法
+过拟合与欠拟合
+偏差-方差权衡(Bias-Variance Tradeoff) 
+交叉验证法
+自助采样法
+
+6.集成方法
+集成学习
+决策树
+信息熵、纯度和信息增益
+Bagging
+随机森林
+AdaBoost
+梯度提升决策树（GBDT）
+
+7.聚类和PCA
+无监督学习
+聚类
+闵可夫斯基距离
+k均值算法（Lloyd算法）
+凝聚层次聚类（Hierarchical Agglomerative Clustering, AGNES）
+维数灾难
+主成分分析（PCA）
+
+8.推荐系统
+基于记忆的协同过滤（Memory-based Collaborative Filtering）
+基于模型的协同过滤（Model-based CF）
+矩阵因子分解（Matrix Factorization）
+交替最小二乘法（ALS）
+平均绝对误差（Mean Absolute Error）
+
+9.图像处理
+卷积
+高斯滤波器（Gaussian Filter）
+
+10.神经网络与深度学习
+神经网络
+卷积神经网络（CNN）
+卷积层
+激活层
+反向传播
