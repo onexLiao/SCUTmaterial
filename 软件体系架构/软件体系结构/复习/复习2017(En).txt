@@ -1,0 +1,66 @@
+Chapter 1. The Architecture Business Cycle
+1.1 Where Do Architectures Come From?
+1.2 Software Processes and the Architecture Business Cycle
+1.3 What Makes a "Good" Architecture?
+
+Chapter 2. What Is Software Architecture?
+2.1 What Software Architecture Is and What It Isn't
+2.4 Why Is Software Architecture Important?
+2.5 Architectural Structures and Views 
+
+
+Chapter 4. Understanding Quality Attributes
+4.1 Functionality and Architecture
+4.2 Architecture and Quality Attributes
+4.3 System Quality Attributes
+4.4 Quality Attribute Scenarios in Practice
+4.6 Business Qualities
+4.7 Architecture Qualities
+
+Chapter 5. Achieving Qualities
+5.1 Introducing Tactics
+5.2 Availability Tactics
+5.3 Modifiability Tactics
+5.4 Performance Tactics
+5.5 Security Tactics
+5.6 Testability Tactics
+5.7 Usability Tactics
+5.8 Relationship of Tactics to Architectural Patterns
+5.9 Architectural Patterns and Styles
+
+
+Chapter 7. Designing the Architecture
+7.1 Architecture in the Life Cycle
+7.2 Designing the Architecture
+7.3 Forming the Team Structure
+7.4 Creating a Skeletal System
+
+
+Chapter 11. The ATAM: A Comprehensive Method for Architecture Evaluation
+11.1 Participants in the ATAM
+11.2 Outputs of the ATAM
+11.3 Phases of the ATAM
+ 
+
+Chapter 14. Software Product Lines: Re-using Architectural Assets
+14.1 Overview
+14.2 What Makes Software Product Lines Work?
+14.3 Scoping
+14.4 Architectures for Product Lines
+
+复习内容：
+
+软件体系结构概念及ABC
+常见软件体系结构风格及其特点－数据流、调用/返回、层次、仓库/黑板
+软件体系结构的视图和描述
+软件体系结构的质量属性及其战术（重点！）
+软件体系结构设计的ADD方法
+软件体系结构评审及其常用方法（ATAM）
+软件产品线
+
+考题类型
+选择题（30%）
+简答题（30%）
+分析论述题（40%）
+
+

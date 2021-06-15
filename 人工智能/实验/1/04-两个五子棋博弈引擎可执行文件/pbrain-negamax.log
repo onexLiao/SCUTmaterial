@@ -1,0 +1,1675 @@
+RESTART
+DEBUG brain_restart
+OK
+INFO max_memory 83886080
+INFO timeout_match 300000
+INFO timeout_turn 1000
+INFO game_type 1
+INFO rule 0
+INFO time_left 299926
+INFO folder C:\ProgramData
+INFO fb_check 1
+BEGIN
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:0
+DEBUG BestMove:[12,5],0
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[12,5],0
+DEBUG Time use:15,time left:985
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:0
+DEBUG BestMove:[1,11],0
+DEBUG Time use:984,time left:16
+DEBUG brain_my [1,11]
+1,11
+INFO time_left 298664
+TURN 4,10
+DEBUG brain_opponents [4 , 10]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:4
+DEBUG BestMove:[4,14],4
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[2,12],0
+DEBUG Time use:266,time left:734
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-2
+DEBUG BestMove:[2,12],-2
+DEBUG Time use:985,time left:15
+DEBUG brain_my [2,12]
+2,12
+INFO time_left 297422
+TURN 3,13
+DEBUG brain_opponents [3 , 13]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:8
+DEBUG BestMove:[2,11],8
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[2,10],0
+DEBUG Time use:406,time left:594
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[2,10],-9950
+DEBUG Time use:984,time left:16
+DEBUG brain_my [2,10]
+2,10
+DEBUG Depth value:-9950
+DEBUG BestMove:[4,8],-9950
+DEBUG Time use:609,time left:391
+DEBUG brain_my [4,8]
+4,8
+INFO time_left 295607
+TURN 3,9
+DEBUG brain_opponents [3 , 9]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[2,11],9950
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[2,11],-9950
+DEBUG Time use:812,time left:188
+DEBUG brain_my [2,11]
+2,11
+INFO time_left 294696
+TURN 2,9
+DEBUG brain_opponents [2 , 9]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[2,14],9980
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+INFO time_left 293794
+TURN 2,13
+DEBUG brain_opponents [2 , 13]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[4,11],9950
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[4,11],-9950
+DEBUG Time use:907,time left:93
+DEBUG brain_my [4,11]
+4,11
+INFO time_left 292777
+TURN 3,11
+DEBUG brain_opponents [3 , 11]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-8
+DEBUG BestMove:[3,12],-8
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[3,12],-9950
+DEBUG Time use:953,time left:47
+DEBUG brain_my [3,12]
+3,12
+INFO time_left 291724
+TURN 5,10
+DEBUG brain_opponents [5 , 10]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[5,14],9950
+DEBUG Time use:15,time left:985
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[7,10],-9950
+DEBUG Time use:922,time left:78
+DEBUG brain_my [7,10]
+7,10
+INFO time_left 290698
+TURN 5,11
+DEBUG brain_opponents [5 , 11]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[5,14],9950
+DEBUG Time use:15,time left:985
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[6,12],-9980
+DEBUG Time use:984,time left:16
+DEBUG brain_my [6,12]
+6,12
+INFO time_left 289614
+TURN 4,12
+DEBUG brain_opponents [4 , 12]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-14
+DEBUG BestMove:[7,9],-14
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[7,9],-9980
+DEBUG Time use:438,time left:562
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[7,9],-9980
+DEBUG Time use:984,time left:16
+DEBUG brain_my [7,9]
+7,9
+INFO time_left 288500
+TURN 2,8
+DEBUG brain_opponents [2 , 8]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-4
+DEBUG BestMove:[1,7],-4
+DEBUG Time use:15,time left:985
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[1,7],-9950
+DEBUG Time use:984,time left:16
+DEBUG brain_my [1,7]
+1,7
+INFO time_left 287395
+TURN 5,9
+DEBUG brain_opponents [5 , 9]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[7,12],9950
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+INFO time_left 286339
+TURN 7,11
+DEBUG brain_opponents [7 , 11]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[9,12],9950
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9990
+DEBUG BestMove:[9,12],-9990
+DEBUG Time use:984,time left:16
+DEBUG brain_my [9,12]
+9,12
+INFO time_left 285224
+TURN 8,12
+DEBUG brain_opponents [8 , 12]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-9940
+DEBUG BestMove:[9,13],-9940
+DEBUG Time use:15,time left:985
+DEBUG MAX depth:2,
+DEBUG Depth value:-9990
+DEBUG BestMove:[9,13],-9990
+DEBUG Time use:562,time left:438
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9990
+DEBUG BestMove:[9,13],-9990
+DEBUG Time use:984,time left:16
+DEBUG brain_my [9,13]
+9,13
+INFO time_left 284111
+TURN 4,9
+DEBUG brain_opponents [4 , 9]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-9960
+DEBUG BestMove:[6,9],-9960
+DEBUG Time use:31,time left:969
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9990
+DEBUG BestMove:[3,8],-9990
+DEBUG Time use:984,time left:16
+DEBUG brain_my [3,8]
+3,8
+RESTART
+DEBUG brain_restart
+OK
+INFO max_memory 83886080
+INFO timeout_match 300000
+INFO timeout_turn 1000
+INFO game_type 1
+INFO rule 0
+INFO time_left 299897
+INFO folder C:\ProgramData
+INFO fb_check 1
+BEGIN
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:0
+DEBUG BestMove:[7,3],0
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[7,3],0
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:0
+DEBUG BestMove:[7,3],0
+DEBUG Time use:985,time left:15
+DEBUG brain_my [7,3]
+7,3
+INFO time_left 298792
+TURN 10,6
+DEBUG brain_opponents [10 , 6]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:4
+DEBUG BestMove:[10,3],4
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-6
+DEBUG BestMove:[10,3],-6
+DEBUG Time use:984,time left:16
+DEBUG brain_my [10,3]
+10,3
+INFO time_left 297669
+TURN 9,3
+DEBUG brain_opponents [9 , 3]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:8
+DEBUG BestMove:[7,6],8
+DEBUG Time use:15,time left:985
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[7,6],0
+DEBUG Time use:671,time left:329
+DEBUG brain_my [7,6]
+7,6
+INFO time_left 296897
+TURN 11,5
+DEBUG brain_opponents [11 , 5]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[8,5],9950
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[8,5],-9950
+DEBUG Time use:906,time left:94
+DEBUG brain_my [8,5]
+8,5
+INFO time_left 295881
+TURN 9,4
+DEBUG brain_opponents [9 , 4]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[7,4],9950
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+INFO time_left 294978
+TURN 7,5
+DEBUG brain_opponents [7 , 5]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[10,7],9950
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[10,7],-9950
+DEBUG Time use:844,time left:156
+DEBUG brain_my [10,7]
+10,7
+INFO time_left 294039
+TURN 9,6
+DEBUG brain_opponents [9 , 6]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-12
+DEBUG BestMove:[9,7],-12
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[9,5],-9950
+DEBUG Time use:969,time left:31
+DEBUG brain_my [9,5]
+9,5
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[8,8],-9980
+DEBUG Time use:984,time left:16
+DEBUG brain_my [8,8]
+8,8
+INFO time_left 291880
+TURN 8,6
+DEBUG brain_opponents [8 , 6]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-30
+DEBUG BestMove:[6,4],-30
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[6,4],-9980
+DEBUG Time use:985,time left:15
+DEBUG brain_my [6,4]
+6,4
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[12,6],-9980
+DEBUG Time use:984,time left:16
+DEBUG brain_my [12,6]
+12,6
+INFO time_left 289672
+TURN 12,4
+DEBUG brain_opponents [12 , 4]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-18
+DEBUG BestMove:[13,3],-18
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[13,3],-9980
+DEBUG Time use:422,time left:578
+DEBUG MAX depth:4,
+INFO time_left 288629
+TURN 10,8
+DEBUG brain_opponents [10 , 8]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-8
+DEBUG BestMove:[11,9],-8
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[11,9],-9950
+DEBUG Time use:937,time left:63
+DEBUG brain_my [11,9]
+11,9
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[12,7],-9980
+DEBUG Time use:984,time left:16
+DEBUG brain_my [12,7]
+12,7
+INFO time_left 286499
+TURN 7,2
+DEBUG brain_opponents [7 , 2]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:0
+DEBUG BestMove:[8,3],0
+DEBUG Time use:15,time left:985
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[8,3],-9950
+DEBUG Time use:984,time left:16
+DEBUG brain_my [8,3]
+8,3
+INFO time_left 285397
+TURN 10,4
+DEBUG brain_opponents [10 , 4]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[12,9],9950
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[13,4],-9980
+DEBUG Time use:985,time left:15
+DEBUG brain_my [13,4]
+13,4
+INFO time_left 284293
+TURN 11,4
+DEBUG brain_opponents [11 , 4]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-464
+DEBUG BestMove:[8,4],-464
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+RESTART
+DEBUG brain_restart
+OK
+INFO max_memory 83886080
+INFO timeout_match 300000
+INFO timeout_turn 1000
+INFO game_type 1
+INFO rule 0
+INFO time_left 299924
+INFO folder C:\ProgramData
+INFO fb_check 1
+BEGIN
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:0
+DEBUG BestMove:[5,13],0
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[5,13],0
+DEBUG Time use:15,time left:985
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:0
+DEBUG BestMove:[14,19],0
+DEBUG Time use:984,time left:16
+DEBUG brain_my [14,19]
+14,19
+INFO time_left 298813
+TURN 13,19
+DEBUG brain_opponents [13 , 19]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:0
+DEBUG BestMove:[17,19],0
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[17,19],0
+DEBUG Time use:172,time left:828
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-4
+DEBUG BestMove:[17,19],-4
+DEBUG Time use:984,time left:16
+DEBUG brain_my [17,19]
+17,19
+INFO time_left 297683
+TURN 10,19
+DEBUG brain_opponents [10 , 19]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:10
+DEBUG BestMove:[15,19],10
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[15,19],0
+DEBUG Time use:203,time left:797
+DEBUG MAX depth:4,
+INFO time_left 286607
+TURN 12,17
+DEBUG brain_opponents [12 , 17]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[13,17],9980
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[13,17],-9980
+DEBUG Time use:985,time left:15
+DEBUG brain_my [13,17]
+13,17
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[9,17],-9980
+DEBUG Time use:985,time left:15
+DEBUG brain_my [9,17]
+9,17
+INFO time_left 284382
+TURN 8,18
+DEBUG brain_opponents [8 , 18]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[15,17],9950
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+INFO time_left 283342
+TURN 14,16
+DEBUG brain_opponents [14 , 16]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[12,15],9950
+DEBUG Time use:16,time left:984
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[12,15],-9980
+DEBUG Time use:985,time left:15
+DEBUG brain_my [12,15]
+12,15
+INFO time_left 282237
+TURN 10,15
+DEBUG brain_opponents [10 , 15]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,15],9980
+DEBUG Time use:0,time left:1000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[9,14],-9980
+DEBUG Time use:875,time left:125
+DEBUG brain_my [9,14]
+9,14
+INFO time_left 281258
+TURN 13,16
+DEBUG brain_opponents [13 , 16]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,15],9980
+DEBUG Time use:15,time left:985
+DEBUG MAX depth:2,
+DEBUG Depth value:-9999
+DEBUG BestMove:[15,15],-9999
+DEBUG Time use:484,time left:516
+DEBUG MAX depth:4,
+END
+______Process started______
+START 20
+DEBUG brain_init
+OK
+INFO max_memory 83886080
+INFO timeout_match 300000
+INFO timeout_turn 5000
+INFO game_type 1
+INFO rule 0
+INFO time_left 299500
+INFO folder C:\ProgramData
+INFO fb_check 1
+BEGIN
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:0
+DEBUG BestMove:[6,4],0
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[6,4],0
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:0
+DEBUG BestMove:[6,4],0
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [6,4]
+6,4
+INFO time_left 294379
+TURN 9,7
+DEBUG brain_opponents [9 , 7]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:4
+DEBUG BestMove:[9,4],4
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[9,4],0
+DEBUG Time use:531,time left:4469
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-4
+DEBUG BestMove:[9,4],-4
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [9,4]
+9,4
+INFO time_left 289306
+TURN 8,4
+DEBUG brain_opponents [8 , 4]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:8
+DEBUG BestMove:[9,1],8
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[9,1],0
+DEBUG Time use:672,time left:4328
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[9,1],-9950
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [9,1]
+9,1
+INFO time_left 284231
+TURN 10,6
+DEBUG brain_opponents [10 , 6]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[9,3],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[9,3],-9950
+DEBUG Time use:797,time left:4203
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[9,3],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [9,3]
+9,3
+INFO time_left 279165
+TURN 9,2
+DEBUG brain_opponents [9 , 2]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[8,2],9950
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[8,2],-9950
+DEBUG Time use:859,time left:4141
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[8,2],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [8,2]
+8,2
+INFO time_left 274088
+TURN 7,3
+DEBUG brain_opponents [7 , 3]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[11,5],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[9,5],-9950
+DEBUG Time use:922,time left:4078
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[9,5],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [9,5]
+9,5
+INFO time_left 269028
+TURN 11,5
+DEBUG brain_opponents [11 , 5]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-6
+DEBUG BestMove:[12,4],-6
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[12,4],-9980
+DEBUG Time use:1062,time left:3938
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-8
+DEBUG BestMove:[12,4],-8
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [12,4]
+12,4
+INFO time_left 263952
+TURN 7,9
+DEBUG brain_opponents [7 , 9]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:4
+DEBUG BestMove:[8,8],4
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-8
+DEBUG BestMove:[8,8],-8
+DEBUG Time use:844,time left:4156
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[8,8],-9950
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [8,8]
+8,8
+INFO time_left 258874
+TURN 11,3
+DEBUG brain_opponents [11 , 3]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:16
+DEBUG BestMove:[10,4],16
+DEBUG Time use:15,time left:4985
+DEBUG MAX depth:2,
+DEBUG Depth value:-8
+DEBUG BestMove:[11,4],-8
+DEBUG Time use:1875,time left:3125
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-2
+DEBUG BestMove:[11,4],-2
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [11,4]
+11,4
+INFO time_left 253801
+TURN 10,4
+DEBUG brain_opponents [10 , 4]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:8
+DEBUG BestMove:[12,1],8
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-6
+DEBUG BestMove:[10,5],-6
+DEBUG Time use:1844,time left:3156
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[10,5],-9950
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [10,5]
+10,5
+INFO time_left 248686
+TURN 12,6
+DEBUG brain_opponents [12 , 6]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[13,2],9950
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[14,8],-9950
+DEBUG Time use:2094,time left:2906
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[14,8],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [14,8]
+14,8
+INFO time_left 243615
+TURN 11,6
+DEBUG brain_opponents [11 , 6]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[13,2],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[13,6],-9980
+DEBUG Time use:3032,time left:1968
+DEBUG MAX depth:4,
+INFO time_left 238614
+TURN 9,6
+DEBUG brain_opponents [9 , 6]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:8
+DEBUG BestMove:[8,6],8
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG Depth value:-10
+DEBUG BestMove:[8,6],-10
+DEBUG Time use:2235,time left:2765
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[8,6],-9950
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [8,6]
+8,6
+DEBUG Depth value:-9950
+DEBUG BestMove:[11,9],-9950
+DEBUG Time use:2953,time left:2047
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[11,9],-9950
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [11,9]
+11,9
+INFO time_left 228474
+TURN 10,8
+DEBUG brain_opponents [10 , 8]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[12,5],9950
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[13,5],-9980
+DEBUG Time use:3172,time left:1828
+DEBUG brain_my [13,5]
+13,5
+INFO time_left 225255
+TURN 9,9
+DEBUG brain_opponents [9 , 9]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-6
+DEBUG BestMove:[8,10],-6
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[8,10],-9980
+DEBUG Time use:1891,time left:3109
+DEBUG MAX depth:4,
+INFO time_left 220270
+TURN 8,9
+DEBUG brain_opponents [8 , 9]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[13,8],9950
+DEBUG Time use:32,time left:4968
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[10,9],-9980
+DEBUG Time use:3516,time left:1484
+DEBUG brain_my [10,9]
+10,9
+INFO time_left 216708
+TURN 9,10
+DEBUG brain_opponents [9 , 10]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:-6
+DEBUG BestMove:[9,8],-6
+DEBUG Time use:32,time left:4968
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[9,8],-9980
+DEBUG Time use:2063,time left:2937
+DEBUG MAX depth:4,
+INFO time_left 211724
+TURN 6,9
+DEBUG brain_opponents [6 , 9]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:4
+DEBUG BestMove:[5,9],4
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[5,9],-9950
+DEBUG Time use:2860,time left:2140
+DEBUG MAX depth:4,
+INFO time_left 206738
+TURN 6,8
+DEBUG brain_opponents [6 , 8]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[13,8],9950
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[13,8],-9950
+DEBUG Time use:4203,time left:797
+DEBUG brain_my [13,8]
+13,8
+INFO time_left 202477
+TURN 13,7
+DEBUG brain_opponents [13 , 7]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[16,8],9950
+DEBUG Time use:15,time left:4985
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-4
+DEBUG BestMove:[14,6],-4
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [14,6]
+14,6
+INFO time_left 193058
+TURN 15,7
+DEBUG brain_opponents [15 , 7]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[12,7],-9950
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [12,7]
+12,7
+INFO time_left 187998
+TURN 10,11
+DEBUG brain_opponents [10 , 11]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:47,time left:4953
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[11,12],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [11,12]
+11,12
+INFO time_left 182939
+TURN 7,8
+DEBUG brain_opponents [7 , 8]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[6,7],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [6,7]
+6,7
+INFO time_left 177873
+TURN 8,7
+DEBUG brain_opponents [8 , 7]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[5,10],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [5,10]
+5,10
+INFO time_left 172819
+TURN 10,7
+DEBUG brain_opponents [10 , 7]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[7,7],-9950
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [7,7]
+7,7
+INFO time_left 167752
+TURN 12,9
+DEBUG brain_opponents [12 , 9]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:32,time left:4968
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:8
+DEBUG BestMove:[11,8],8
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [11,8]
+11,8
+INFO time_left 162684
+TURN 14,5
+DEBUG brain_opponents [14 , 5]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:47,time left:4953
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:14
+DEBUG BestMove:[11,10],14
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [11,10]
+11,10
+INFO time_left 157628
+TURN 11,11
+DEBUG brain_opponents [11 , 11]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:47,time left:4953
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:12
+DEBUG BestMove:[12,11],12
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [12,11]
+12,11
+INFO time_left 152542
+TURN 13,12
+DEBUG brain_opponents [13 , 12]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:47,time left:4953
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:14
+DEBUG BestMove:[13,4],14
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [13,4]
+13,4
+INFO time_left 147473
+TURN 5,8
+DEBUG brain_opponents [5 , 8]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[15,8],9980
+DEBUG Time use:47,time left:4953
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[15,8],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [15,8]
+15,8
+INFO time_left 142413
+TURN 4,8
+DEBUG brain_opponents [4 , 8]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[19,11],9980
+DEBUG Time use:46,time left:4954
+DEBUG MAX depth:2,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[3,13],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [3,13]
+3,13
+RESTART
+DEBUG brain_restart
+OK
+INFO max_memory 83886080
+INFO timeout_match 300000
+INFO timeout_turn 5000
+INFO game_type 1
+INFO rule 0
+INFO time_left 299957
+INFO folder C:\ProgramData
+INFO fb_check 1
+BEGIN
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:0
+DEBUG BestMove:[14,18],0
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[14,18],0
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:0
+DEBUG BestMove:[14,18],0
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [14,18]
+14,18
+INFO time_left 294747
+TURN 11,17
+DEBUG brain_opponents [11 , 17]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:4
+DEBUG BestMove:[17,18],4
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[17,18],0
+DEBUG Time use:312,time left:4688
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-4
+DEBUG BestMove:[17,18],-4
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [17,18]
+17,18
+INFO time_left 289637
+TURN 10,18
+DEBUG brain_opponents [10 , 18]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[16,18],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:0
+DEBUG BestMove:[12,16],0
+DEBUG Time use:485,time left:4515
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[12,16],-9950
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [12,16]
+12,16
+INFO time_left 284560
+TURN 10,17
+DEBUG brain_opponents [10 , 17]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[16,18],9950
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[16,18],-9950
+DEBUG Time use:500,time left:4500
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[16,18],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [16,18]
+16,18
+INFO time_left 279476
+TURN 15,18
+DEBUG brain_opponents [15 , 18]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[13,17],9950
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[13,17],-9950
+DEBUG Time use:516,time left:4484
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[13,17],-9950
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [13,17]
+13,17
+INFO time_left 274383
+TURN 11,15
+DEBUG brain_opponents [11 , 15]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:4
+DEBUG BestMove:[14,16],4
+DEBUG Time use:15,time left:4985
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[14,16],-9950
+DEBUG Time use:578,time left:4422
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[14,16],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [14,16]
+14,16
+INFO time_left 269290
+TURN 10,16
+DEBUG brain_opponents [10 , 16]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[16,14],9950
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[10,15],-9950
+DEBUG Time use:750,time left:4250
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[10,15],-9950
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [10,15]
+10,15
+INFO time_left 264190
+TURN 11,18
+DEBUG brain_opponents [11 , 18]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[16,14],9950
+DEBUG Time use:15,time left:4985
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[11,16],-9950
+DEBUG Time use:718,time left:4282
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[11,16],-9950
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [11,16]
+11,16
+INFO time_left 259116
+TURN 13,16
+DEBUG brain_opponents [13 , 16]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[16,14],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[16,14],-9950
+DEBUG Time use:828,time left:4172
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[16,14],-9950
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [16,14]
+16,14
+INFO time_left 254011
+TURN 15,15
+DEBUG brain_opponents [15 , 15]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[15,17],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[15,17],-9950
+DEBUG Time use:954,time left:4046
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[15,17],-9950
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [15,17]
+15,17
+INFO time_left 248927
+TURN 13,15
+DEBUG brain_opponents [13 , 15]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[17,15],9950
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[14,15],-9950
+DEBUG Time use:1062,time left:3938
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[14,15],-9980
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [14,15]
+14,15
+INFO time_left 243843
+TURN 14,17
+DEBUG brain_opponents [14 , 17]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[17,15],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[12,15],-9950
+DEBUG Time use:953,time left:4047
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9980
+DEBUG BestMove:[12,15],-9980
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [12,15]
+12,15
+INFO time_left 238754
+TURN 9,18
+DEBUG brain_opponents [9 , 18]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[17,15],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[12,18],-9980
+DEBUG Time use:1016,time left:3984
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9990
+DEBUG BestMove:[12,18],-9990
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [12,18]
+12,18
+INFO time_left 233656
+TURN 12,17
+DEBUG brain_opponents [12 , 17]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[17,15],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[17,15],-9980
+DEBUG Time use:1203,time left:3797
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9990
+DEBUG BestMove:[17,15],-9990
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [17,15]
+17,15
+INFO time_left 228575
+TURN 9,17
+DEBUG brain_opponents [9 , 17]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9990
+DEBUG BestMove:[16,16],9990
+DEBUG Time use:15,time left:4985
+DEBUG MAX depth:2,
+DEBUG Depth value:-9990
+DEBUG BestMove:[8,17],-9990
+DEBUG Time use:890,time left:4110
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9999
+DEBUG BestMove:[8,17],-9999
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [8,17]
+8,17
+INFO time_left 223491
+TURN 16,16
+DEBUG brain_opponents [16 , 16]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[18,16],9950
+DEBUG Time use:0,time left:5000
+DEBUG MAX depth:2,
+DEBUG Depth value:-9980
+DEBUG BestMove:[12,14],-9980
+DEBUG Time use:1172,time left:3828
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9999
+DEBUG BestMove:[12,14],-9999
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [12,14]
+12,14
+INFO time_left 218402
+TURN 12,13
+DEBUG brain_opponents [12 , 13]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[18,16],9950
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG Depth value:-9950
+DEBUG BestMove:[8,18],-9950
+DEBUG Time use:1547,time left:3453
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9950
+DEBUG BestMove:[8,18],-9950
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [8,18]
+8,18
+INFO time_left 213318
+TURN 9,16
+DEBUG brain_opponents [9 , 16]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[18,16],9950
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9990
+DEBUG BestMove:[18,16],-9990
+DEBUG Time use:1531,time left:3469
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9999
+DEBUG BestMove:[18,16],-9999
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [18,16]
+18,16
+INFO time_left 208223
+TURN 15,13
+DEBUG brain_opponents [15 , 13]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9950
+DEBUG BestMove:[17,17],9950
+DEBUG Time use:31,time left:4969
+DEBUG MAX depth:2,
+DEBUG Depth value:-9990
+DEBUG BestMove:[17,17],-9990
+DEBUG Time use:1625,time left:3375
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9999
+DEBUG BestMove:[17,17],-9999
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [17,17]
+17,17
+INFO time_left 203140
+TURN 17,14
+DEBUG brain_opponents [17 , 14]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[19,15],9980
+DEBUG Time use:15,time left:4985
+DEBUG MAX depth:2,
+DEBUG Depth value:-9990
+DEBUG BestMove:[19,15],-9990
+DEBUG Time use:1734,time left:3266
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9990
+DEBUG BestMove:[19,15],-9990
+DEBUG Time use:4984,time left:16
+DEBUG brain_my [19,15]
+19,15
+INFO time_left 198034
+TURN 15,19
+DEBUG brain_opponents [15 , 19]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9980
+DEBUG BestMove:[17,19],9980
+DEBUG Time use:16,time left:4984
+DEBUG MAX depth:2,
+DEBUG Depth value:-9990
+DEBUG BestMove:[17,19],-9990
+DEBUG Time use:1938,time left:3062
+DEBUG MAX depth:4,
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG It's time to terminate
+DEBUG Depth value:-9990
+DEBUG BestMove:[17,19],-9990
+DEBUG Time use:4985,time left:15
+DEBUG brain_my [17,19]
+17,19
+INFO time_left 192938
+TURN 9,15
+DEBUG brain_opponents [9 , 15]
+DEBUG brain_turn
+DEBUG MAX depth:1,
+DEBUG Depth value:9999
+DEBUG BestMove:[17,16],10
+DEBUG Time use:0,time left:5000
+DEBUG brain_my [17,16]
+17,16
+END
