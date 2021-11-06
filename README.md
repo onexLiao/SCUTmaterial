@@ -11,33 +11,36 @@
 1. 入学英语分班考试✅(Last Updated: 2017-02-23)
 
 #### 数理类
-1. 工科数学分析（上/下）✅(Last Updated: 2017-02-24)
+1. 工科数学分析（上/下）✅(Last Updated: 2017-06-16)
 2. 离散数学✅(Last Updated: 2017-02-24)
 3. 线性代数✅(Last Updated: 2017-02-24)
-4. 概率论✅(Last Updated: 2017-02-24)
-5. 大学物理（上/下）✅(Last Updated: 2017-02-24)
+4. 概率论✅(Last Updated: 2017-07-07)
+5. 大学物理（上/下）✅(Last Updated: 2017-06-14)
+6. 大学物理实验（Last Updated: 2018-10-19）
 
 #### 程序设计语言类
-1. C++程序设计（上✅/下❌）(Last Updated: 2017-02-26)
+1. C++程序设计（上✅/下✅）(Last Updated: 2017-05-24)
 2. Java程序设计✅
 
 #### 计算机科学基础类
 1. 计算机科学导论✅(Last Updated: 2017-02-23)
 2. 数据库✅(Last Updated: 2017-05-06)
-3. 计算机网络✅(Last Updated: 2017-05-06)
+3. 计算机网络✅(Last Updated: 2018-06-21)
 4. 计算机组成✅(Last Updated: 2017-05-06)
 5. 操作系统✅(Last Updated: 2017-05-06)
 
 #### 软件工程类
 1. 软件需求分析✅(Last Updated: 2017-05-06)
-2. 软件测试✅(Last Updated: 2017-05-06)
-3. 软件体系架构 ✅(Last Updated: 2017-02-23)
+2. 软件测试✅(Last Updated: 2019-6-28)
+3. 软件体系架构 ✅(Last Updated: 2018-12-27)
+4. 软件项目管理和质量工程（Last Update: 2019-1-2）
 
 #### 思想政治类
 1. 思修✅(Last Updated: 2017-02-26)
 2. 毛概✅(Last Updated: 2017-02-26)
 3. 马哲✅(Last Updated: 2017-02-26)
 4. 近代史✅(Last Updated: 2017-02-26)
+5. 形势与政策（Last Updated: 2019-6-28）
 
 #### 其他必修类
 1. 工程制图✅(Last Updated: 2017-05-06)
@@ -45,5 +48,11 @@
 3. 数字逻辑✅(Last Updated: 2017-05-06)
 4. 电子电路✅(Last Updated: 2017-05-06)
 
+#### 方向选修专业课
+1. 物联网系统基础与应用（Last Updated: 2018-12-27）
+2. 机器学习（Last Updated: 2018-12-28）
+3. 人工智能（Last Updated: 2019-1-2）
+4. 智能人机交互技术（Last Updated: 2019-1-2）
 
-
+#### 方向无关选修课
+1. 并行程序设计（Last Updated: 2019-6-28）
